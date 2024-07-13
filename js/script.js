@@ -156,8 +156,6 @@
 
 // console.log(personalMovieDB);
 
-'use strict';
-
 // if (4 == 9) {
 //     console.log("Ok!");
 // } else {
@@ -192,3 +190,47 @@
 //         console.log("Не в этот раз");
 //         break;
 // }
+
+// const hamburger = true;
+// const fries = true;
+
+// if (hamburger && fries) {
+//     console.log("Я сыт!");
+// }
+
+// const hamburger = 3;
+// const fries = 1;
+// const cola = 1;
+
+// console.log(hamburger === 3 && cola && fries);
+
+// console.log(1 && 0);
+// console.log(1 && 5);
+// console.log(null && 5);
+// console.log(0 && "afassikgnag");
+
+
+// if (hamburger === 3 && cola && fries) {
+//     console.log("Все сыты!");
+// } else {
+//     console.log("Мы уходим!")
+// }
+
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
+
+// if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
+//     console.log("Все довольны!");
+// } else {
+//     console.log("Мы уходим!");
+// }
+
+// console.log(hamburger || cola || fries);
+
+// let johnReport, alexReport, samReport, mariaReport = 'Done';
+
+// console.log(johnReport || alexReport || samReport || mariaReport);
+
+'use strict';
